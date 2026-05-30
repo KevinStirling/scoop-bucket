@@ -1,0 +1,35 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "arm64": {
+            "url": "https://github.com/KevinStirling/scorebug.sh/releases/v0.1.1/scorebug.sh_Windows_arm64.zip",
+            "bin": [
+                "scorebug.exe"
+            ],
+            "hash": "73255a554e5a84f67ff8382a0207f7f1f8f7b08a01de4c908dfd40a80464a864"
+        }
+    },
+    "homepage": "https://github.com/KevinStirling/scorebug.sh",
+    "license": "MIT",
+    "description": "Live MLB scores in your terminal",
+    "persist": [
+        "data",
+        "config.toml"
+    ],
+    "pre_install": [
+        "Write-Host 'Running preinstall command'"
+    ],
+    "post_install": [
+        "Write-Host 'Running postinstall command'"
+    ],
+    "depends": [
+        "git",
+        "foo"
+    ],
+    "shortcuts": [
+        [
+            "scorebug.exe",
+            "scorebug"
+        ]
+    ]
+}
