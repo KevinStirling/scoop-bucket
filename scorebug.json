@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/KevinStirling/scorebug.sh/releases/v0.3.0/scorebug.sh_Windows_arm64.zip",
+            "url": "https://github.com/KevinStirling/scorebug.sh/releases/v0.3.1/scorebug.sh_Windows_arm64.zip",
             "bin": [
                 "scorebug.exe"
             ],
-            "hash": "d6a4f8a25700c020db325c4b8822edb26799e12564b68ddf1081ca4fb3bb0007"
+            "hash": "1f3b76f3a94f98bd846abedc59061d40e1429a11f863ce059ae0068632f4d630"
         }
     },
     "homepage": "https://github.com/KevinStirling/scorebug.sh",
